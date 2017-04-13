@@ -103,7 +103,7 @@ class ReservationController extends Controller
             $em->flush();
         }
 
-        return $this->redirectToRoute('reservation_index');
+        return $this->redirectToRoute('reservation_delete');
     }
 
     /**
